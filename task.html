@@ -1,0 +1,189 @@
+<html>
+    <head>
+    
+    <style>
+        .class1{ font-family: impact;
+        }
+        .id1{
+            text-align: center;
+        }
+    </style>
+    <script>
+       function  myFunction(){
+            alert("USED SCRIPT TAG")
+        }
+    </script>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"></head>
+        <body>
+            <!-- HTML TABLES-->
+<!-- <table></table> used to specify table in html
+      <th></th>used to specify header of a table
+      <tr></tr> used to specify row in a table
+      border used to specify the border of the table
+     width it specifies the width of a table in the webpage
+     padding it specifies the space between cell edges and cell content
+     spacing is useed to specify the spacing between the cells in a table
+     calspan is used to merge the cells in a table with columns
+     rowspan is used to merge cells in a table with tables
+     Table styling we can add background color to the table is called as table styling
+     Nested tables inserting a table within a table is called as nested tables.-->
+   
+            <table border="2" width="100%"  padding="10px" border-spacing="10px">
+                <tr>
+                     <th>TABLE HEADING</th>
+                     <TD>TABLE DATA</TD>
+                </tr>
+                <tr>
+                    <th rowspan="2">Row Span</th>
+                    <td>Row 1</td>
+                </tr><tr><td>Row 2</td></tr>
+                <tr>
+                    <th colspan="2">Colspan</th>
+                    
+                    <tr><td> Column 1</td><td>Column 2</td></tr>
+                </tr>
+            </table><br><br>
+            <table border="2">
+                <tr> 
+                    <td>Nested Table</td>
+                    <td><table border="1"><tr><th>Inner Table</th></tr><tr><td> Inner table Data Cell</td></tr></table></td>
+                </tr>
+            </table>
+
+            <!-- HTML Class Attribute is used to specify the styles to the particular element element with unique class name one html element can contain more than one class-->
+             <p class="class1"> This is a Paragraph using Class Attribute</p>
+             <!-- HTML Id Attribute is used to specify the styles to the particular element element with unique Id name one html element can contain oly one Id-->
+             <h1 class="id1"> This is a Paragraph using Id Attribute</h1>
+
+             <!-- IFRAME is used to embed another webpage in a current html documnet-->
+             <iframe src="9 Colors.html" height="200px" width="500px" title="Iframe Tag"></iframe><br><br><br>
+
+             <!-- HTML <SCRIPT> tag is used to client-side script( JS()-->
+
+                <button type="button" onclick="myFunction()">click me</button>
+                <br><br>
+                <!-- Inserting image into html using html file path example <img> tag to insert an image into html document-->
+                <img src="Images.html/pencil.jpeg" height="200px" width="200px"><br><br>
+                
+                <!--<header> - Defines a header for a document or a section
+                   <nav> - Defines a set of navigation links
+                   <section> - Defines a section in a document
+                   <article> - Defines an independent, self-contained content
+                   <aside> - Defines content aside from the content (like a sidebar)
+                   <footer> - Defines a footer for a document or a section
+                   <details> - Defines additional details that the user can open and close on demand
+                       <summary> - Defines a heading for the <details> element<header> -->
+
+                        <!-- HTML RESPONSIVIE To create a responsive Website using <meta> viewpoint attribute the web page automatically for different gadgets-->
+
+                        <!-- HTML Computer code can be displayed as it is written in the code using <code> tag-->
+                            <code>
+                               a=5;
+                               b=6;
+                               c=10;
+                            </code><br><br>
+
+                        <!--<kbd> Element define keyboard input it displayes browsers default monospace font.-->
+                            <kbd> CTRL + X </kbd><br>
+                            <br>
+                            <br>
+                    <!-- Character Entities  Used to display the symbols on the webpage using entity name or number-->
+                    <table border="1" padding="3">
+                        <tr>
+                            <td>&nbsp;</td><td>Non breaking space</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;</td><td>Less Than</td>
+                        </tr>
+                        <tr>
+                            <td>&gt;</td><td>Greater than</td>
+                        </tr>
+                        <tr>
+                            <td>&amp;</td><td>Ampersand</td>
+                        </tr>
+                        <tr>
+                            <td>&quot;</td><td>Double-Quotations</td>
+                        </tr>
+                        <tr>
+                            <td>&apos;</td><td>Single-Quotation</td>
+                        </tr>
+                        <tr>
+                            <td>&cent;</td><td>Cent</td>
+                        </tr>
+                        <tr>
+                            <td>&pound;</td><td>Pound</td>
+                        </tr>
+                        <tr>
+                            <td>&yen;</td><td>Yen</td>
+                        </tr>
+                        <tr>
+                            <td>&euro;</td><td>Euro</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>&copy;</td><td>Copyright</td>
+                        </tr>
+                        <tr>
+                            <td>&reg;</td><td>Registerd</td>
+                        </tr>
+                        <tr>
+                            <td>&forall;</td><td>For all</td>
+                        </tr>
+                        <tr>
+                            <td>&part;</td><td>partial difference</td>
+                        </tr>
+                        <tr>
+                            <td>&exist;</td><td>There Exists</td>
+                        </tr>
+                        <tr>
+                            <td>&empty;</td><td>Empty Sets</td>
+                        </tr>
+                        <tr>
+                            <td>&nabla;</td><td>Nabla</td>
+                        </tr>
+                        <tr>
+                            <td>&isin;</td><td>Element of</td>
+                        </tr>
+                        <tr>
+                            <td>&notin;</td><td>not element of</td>
+                        </tr>
+                        <tr>
+                            <td>&ni;</td><td>Contains As Member</td>
+                        </tr>
+                        <tr>
+                            <td>&prod;</td><td>Product</td>
+                        </tr>
+                        <tr>
+                            <td>&sum;</td><td>Summation</td>
+                        </tr>
+
+
+                    </table>
+            <!-- Charset which is used to disp[lay all the symbols through out the world meta charset="UTF-8" containign all the symbols in number entities emojis alo can displayed in charsset="UTF-8" 
+            -->
+
+            <!--<sag> Tag  is used to draw different graphics like circle boxes ploygons etc-->
+                <svg width="100px" height="100px">
+                    <circle cx="50" cy="50" r="30" stroke="black" fill="orangered"/>
+                </svg>
+                <br><br><br>
+
+                <!-- Html <vedio> tag is used to display vedios in webpage
+                    with attributes width, height, controls - to start and stop the vedio, autoplay- to play vediio automatically, autoplay muted - to play vedio automatically but muted audio-->
+                    <video width="500px" height="300px" controls>
+                        <source src="Images.html/video track.mp4" type="video/mp4" > 
+                    </video>
+
+               <!-- <audio> tag is used to insert audio into the webpage with attributes muted, autoplay-->
+               <audio controls autoplay>
+                <source src="Images.html/audio track.mp3" type="audio/ogg">
+               </audio>
+               <!--<OBJECT></OBJECT> is used to embed am abject within a html document-->
+               <object width="100%" height="500px" data="fullstack.jpg"></object><br><br><br>
+
+               <!-- we can insert youtube video using source link in html-->
+               <iframe width="100%" height="100%"src="https://www.youtube.com/watch?v=koVsb5SbGsA" height="400px" width="500px"></iframe>
+               
+
+        </body>
+    </html>
